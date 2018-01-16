@@ -1,9 +1,11 @@
 """
 @github: github.com/akhalilli
+
+"""
+"""
 Time Complexity: O(n*d)
 Auxiliary Space: O(1)
 """
-
 
 def rotateArray(arr, d, left=True):
     n = len(arr)
