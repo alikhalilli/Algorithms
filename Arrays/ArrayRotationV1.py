@@ -1,8 +1,6 @@
 """
 @github: github.com/akhalilli
 
-"""
-"""
 Time Complexity: O(n*d)
 Auxiliary Space: O(1)
 """
