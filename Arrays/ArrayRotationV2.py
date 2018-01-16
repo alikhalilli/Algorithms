@@ -15,7 +15,7 @@ def rotateArray(arr, d, left=True):
         print(rightRotate(arr, d, n))
 
 
-def leftRotate(arr, d, n):
+def rightRotate(arr, d, n):
     temp = []
     for i in range(n - d, n):
         temp.append(arr[i])
@@ -28,7 +28,7 @@ def leftRotate(arr, d, n):
     return arr
 
 
-def rightRotate(arr, d, n):
+def leftRotate(arr, d, n):
     temp = []
     for i in range(d):
         temp.append(arr[i])
