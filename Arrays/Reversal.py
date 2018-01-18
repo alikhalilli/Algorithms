@@ -13,8 +13,6 @@ rArB = [2, 1, 5, 4, 3]
 r(rArB) = [3, 4, 5, 1, 2]
 """
 
-
-
 def rotateByReverse(arr, d):
 	n = len(arr)
 	reverseArray(arr, 0, d-1)
