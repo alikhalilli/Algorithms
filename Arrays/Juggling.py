@@ -5,6 +5,15 @@ Time Complexity: O(n)
 Space Complexity: O(1)
 """
 
+# GCD = Greatest Common Divisor
+
+
+def gcd(a, b):
+    if b == 0:
+        return a
+    else:
+        return gcd(b, a % b)
+
 
 def leftRotate(arr, d, n):
     for i in range(gcd(d, n)):
@@ -20,7 +29,6 @@ def leftRotate(arr, d, n):
 
 
 """
-
 1 2 3 4 5 6 7 8 9 10 11 12
 n = 12
 d = 3
@@ -35,12 +43,3 @@ arr[0] - arr[3] - arr[6] - arr[9] - (9+3)%12
 
 [4 5 6] [7 8 9] [10 11 12] [1 2 3]
 """
-
-# GCD = Greatest Common Divisor
-
-
-def gcd(a, b):
-    if b == 0:
-        return a
-    else:
-        return gcd(b, a % b)
