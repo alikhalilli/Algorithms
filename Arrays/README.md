@@ -1,2 +1,1 @@
-**Array Rotation Algorithms**
-
+**Array Rotation Algorithms** <br>
