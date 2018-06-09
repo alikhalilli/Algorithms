@@ -6,3 +6,7 @@ Algorithms
     * [---]()
 * [Arrangement]()
     * [---]()
+    * [---]()
+* [Order Statistics]()
+    * [---]()
+    * [---]()
