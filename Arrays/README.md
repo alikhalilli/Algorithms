@@ -1,1 +1,9 @@
-**Array Rotation Algorithms** <br>
+* [Array Rotation](Rotation)
+    * [Append Temp Array](Rotation/AppendTempArray.py)
+    * [---]()
+* [Arrangement]()
+    * [---]()
+    * [---]()
+* [Order Statistics]()
+    * [---]()
+    * [---]()
