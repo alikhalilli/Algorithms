@@ -26,7 +26,7 @@ class Solution(object):
         self.arr = arr
         self.n = len(arr)
         self.d = d % self.n
-        self.gcd = self.__getGCD(n, d)
+        self.gcd = self.__getGCD(self.n, self.d)
 
     def rotate(self):
         for i in range(self.gcd):
