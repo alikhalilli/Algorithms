@@ -15,20 +15,22 @@ replace by temp array first d elements
 
 
 class Solution(object):
-    def __init__(self, arr, direction, d):
+    def __init__(self, arr, direction, d, printarr=True):
         self.direction = direction
         self.arr = arr
         self.d = d
         self.n = len(self.arr)
         self.temp_arr = [None] * self.d
+        self.print = printarr
 
     def rotate(self):
         if self.direction == 'right':
             self.__rightRotate()
-            self.getArr()
         else:
             self.__leftRotate()
-            self.getArr()
+
+        if self.print:
+            self.__printArr()
 
     def __rightRotate(self):
         """
@@ -71,7 +73,7 @@ class Solution(object):
         for i in range(self.d):
             arr[self.n - self.d + i] = temp_arr[i]
 
-    def getArr(self):
+    def __printArr(self):
         print('{} rotated array: {}'.format(self.direction, self.arr))
 
 
