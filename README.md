@@ -1,12 +1,11 @@
 Algorithms
 =================
-### Arrays
+### Array
 * [Array Rotation]()
-    * [AppendingSubArray](AppendSubArray.py)
-    * [---]()
-* [Arrangement]()
-    * [---]()
-    * [---]()
-* [Order Statistics]()
-    * [---]()
-    * [---]()
+* []()
+### LinkedList
+* [Singly Linked List]()
+* []()
+### Stack
+* [Implementation]()
+* []()
