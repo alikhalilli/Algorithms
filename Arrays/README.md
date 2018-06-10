@@ -1,6 +1,6 @@
 * [Array Rotation](Rotation)
     * [Append Temp Array](Rotation/AppendTempArray.py)
-    * [---]()
+    * [One By One](Rotation/OneByOne.py)
 * [Arrangement]()
     * [---]()
     * [---]()
