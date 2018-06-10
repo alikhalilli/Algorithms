@@ -1,7 +1,7 @@
 * [Array Rotation](Rotation)
     * [Append Temp Array](Rotation/AppendTempArray.py)
     * [One By One](Rotation/OneByOne.py)
-    * [Juggling](Juggling.py)
+    * [Juggling](Rotation/Juggling.py)
 * [Arrangement]()
     * [---]()
     * [---]()
