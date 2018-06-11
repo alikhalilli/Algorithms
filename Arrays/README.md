@@ -4,6 +4,7 @@
     * [Juggling](Rotation/Juggling.py)
     * [Reversal](Rotation/Reversal.py)
     * [Block Swap](Rotation/BlockSwap.py)
+    * [Cyclically Rotate](Rotation/Cyclically.py)
 * [Arrangement]()
     * [---]()
     * [---]()
