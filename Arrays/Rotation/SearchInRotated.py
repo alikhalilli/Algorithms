@@ -9,7 +9,7 @@ def binarySearch(arr, low, high, key):
     if high < low:
         return -1
 
-    mid = int(low + (high - low) / 2)
+    mid = int(low + (high - low) // 2)
 
     if arr[mid] == key:
         return mid
@@ -36,6 +36,11 @@ def findPivotIndex(arr, low, high):
     if mid > low and arr[mid] < arr[mid-1]:
         return mid-1
 
+    """
+    [1, 2, 3, 4, 5, 6]
+    [3, 4, 5, 6, 1, 2]
+    arr[0] >= arr[3]
+    """
     if arr[low] >= arr[mid]:
         return findPivotIndex(arr, low, mid-1)
 
