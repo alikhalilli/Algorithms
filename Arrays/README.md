@@ -3,6 +3,7 @@
     * [One By One](Rotation/OneByOne.py)
     * [Juggling](Rotation/Juggling.py)
     * [Reversal](Rotation/Reversal.py)
+    * [Block Swap](Rotation/BlockSwap.py)
 * [Arrangement]()
     * [---]()
     * [---]()
