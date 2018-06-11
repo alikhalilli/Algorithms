@@ -1,5 +1,7 @@
 """
-@github: github.com/akhalilli
+@github: github.com/alikhalilli
+
+Time Complexity: O(logn)
 """
 
 
@@ -19,7 +21,7 @@ def binarySearch(arr, low, high, key):
         return binarySearch(arr, mid+1, high, key)
 
 
-def findPivot(arr, low, high):
+def findPivotIndex(arr, low, high):
     if high < low:
         return -1
 
@@ -35,17 +37,17 @@ def findPivot(arr, low, high):
         return mid-1
 
     if arr[low] >= arr[mid]:
-        return findPivot(arr, low, mid-1)
+        return findPivotIndex(arr, low, mid-1)
 
-    return findPivot(arr, mid+1, high)
+    return findPivotIndex(arr, mid+1, high)
 
 
 def pivotedSearch(arr, key):
     n = len(arr)
-    pivot = findPivot(arr, 0, n-1)
+    pivot = findPivotIndex(arr, 0, n-1)
 
     if pivot == -1:
-        return binarySearch(arr, 0, n-1, key)
+        return binarySearch(arr, 0, n-1, key)  # normal Binary-Search
 
     if arr[pivot] == key:
         return pivot
