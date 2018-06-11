@@ -5,6 +5,7 @@
     * [Reversal](Rotation/Reversal.py)
     * [Block Swap](Rotation/BlockSwap.py)
     * [Cyclically Rotate](Rotation/Cyclically.py)
+    * [Search In Rotated Array](Rotation/SearchInRotated.py)
 * [Arrangement]()
     * [---]()
     * [---]()
