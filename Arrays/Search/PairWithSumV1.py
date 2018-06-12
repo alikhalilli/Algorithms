@@ -22,14 +22,15 @@ def findPair(arr, sum):
     n = len(arr)
     l = 0
     r = n - 1
+    pairs = []
     while l < r:
         if arr[l] + arr[r] == sum:
-            return (l, r)
+            pairs.append((arr[l], arr[r]))
         elif arr[l] + arr[r] < sum:
             l += 1
         else:
             r -= 1
-    return 0
+    return False
 
 
 # arr = [1, 4, 45, 6, 10, -8]

@@ -10,14 +10,15 @@ def findPivot(arr):
     for i in range(n):
         if arr[i] > arr[i + 1]:
             return i
-    return -1
+    return False
 
 
 def findPair(arr, sum):
     n = len(arr)
     p = findPivot(arr)
     l = (p + 1) % n  # min element's index
-    r = p  # max element's index
+    if p:
+        r = p  # max element's index
     while l != r:
         if arr[l] + arr[r] == sum:
             return (l, r)
