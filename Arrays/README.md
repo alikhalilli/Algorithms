@@ -6,6 +6,7 @@
     * [Block Swap](Rotation/BlockSwap.py)
     * [Cyclically Rotate](Rotation/Cyclically.py)
     * [Search In Rotated Array](Rotation/SearchInRotated.py)
+    * [Pair With A Given SUM](Rotation/PairWithGivenSum.py)
 * [Arrangement]()
     * [---]()
     * [---]()

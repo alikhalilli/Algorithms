@@ -57,7 +57,8 @@ def pivotedSearch(arr, key):
     if arr[pivot] == key:
         return pivot
 
+    # if element > arr[0] -> search at left array
     if arr[0] <= key:
         return binarySearch(arr, 0, pivot-1, key)
-
+    # else search at right array
     return binarySearch(arr, pivot+1, n-1, key)
