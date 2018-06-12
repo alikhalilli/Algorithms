@@ -32,5 +32,6 @@ def findPair(arr, sum):
     return 0
 
 
-arr = [1, 4, 45, 6, 10, -8]
+# arr = [1, 4, 45, 6, 10, -8]
+arr = [-8, 1, 4, 6, 10, 45]
 print(findPair(arr, 16))
