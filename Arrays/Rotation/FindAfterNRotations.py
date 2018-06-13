@@ -21,8 +21,11 @@ ranges = [(0, 2), (0, 3)]
 arr = [1, 2, 3, 4, 5]
 
 
-def findElement(arr, ranges, d, index):
-    for i in range(d-1, -1, -1):
+def findElement(arr, ranges):
+    rotations = len(ranges)
+    index = 1
+    # run through ranges from reverse.
+    for i in range(rotations-1, -1, -1):
         left, right = ranges[i]
 
         if (left <= index and right >= index):
