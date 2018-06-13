@@ -11,6 +11,8 @@
     * [Find maxSUM(i*arr[i]) With Only Rotations O(n)](Rotation/MaxSumRotationV2.py)
     * [Find the rotation count in Rotated Sorted Array O(n)](Rotation/RotationCount.py)
     * [Find the rotation count in Rotated Sorted Array O(logn)](Rotation/RotationCountV2.py)
+    * [Quickly find multiple left rotations of an array](Rotation/MultipleLeftRotations.py)
+    * [Quickly find multiple left rotations of an array (SpaceOpt)](Rotation/MultipleLeftRotationsV2.py)
 * [Array Search](Search)
     * [Find Pairs With A Given Sum In Two Unsorted Arrays](Search/PairsTwoUnsortedArraysV1.py)
     * [Find Pairs With A Given Sum In Two Unsorted Arrays V2](Search/PairsTwoUnsortedArraysV2.py)
