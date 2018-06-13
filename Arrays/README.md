@@ -14,6 +14,7 @@
     * [Quickly find multiple rotations of an array](Rotation/MultipleRotations.py)
     * [Quickly find multiple rotations of an array (SpaceOpt)](Rotation/MultipleRotationsV2.py)
     * [Find Minimum Element In Rotated Sorted Array](Rotation/FindMinInRotatedSortedArr.py)
+    * [Rotation With Max Hamming Distance](Rotation/MaxHammingDistance.py)
 * [Array Search](Search)
     * [Find Pairs With A Given Sum In Two Unsorted Arrays](Search/PairsTwoUnsortedArraysV1.py)
     * [Find Pairs With A Given Sum In Two Unsorted Arrays V2](Search/PairsTwoUnsortedArraysV2.py)
