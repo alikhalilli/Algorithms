@@ -33,7 +33,7 @@ def findPivotIndex(arr, low, high):
     if mid < high and arr[mid] > arr[mid+1]:
         return mid
 
-    if mid > low and arr[mid] < arr[mid-1]:
+    if low < mid and arr[mid] < arr[mid-1]:
         return mid-1
 
     """
