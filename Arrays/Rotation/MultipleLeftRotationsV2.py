@@ -16,3 +16,13 @@ def leftRotate(arr, k):
     start = k % n
     for i in range(start, start+n):
         print(arr[i % n], end=" ")
+
+
+def rightRotate(arr, k):
+    n = len(arr)
+    start = (n-k) % n
+    for i in range(start, start+n):
+        print(arr[i % n], end=" ")
+
+
+leftRotate([1, 2, 3, 4, 5, 6], 2)
