@@ -34,6 +34,7 @@
     - [x] [Rearrange Array using DICT](Arrangement/RearrangeV3.py)
     - [x] [Reverse Array(Iterative)](Arrangement/ReverseArrOrString(Iterative).py)
     - [x] [Reverse Array(Recursive)](Arrangement/ReverseArrOrString(Recursive).py)
+    - [ ] [Rearrange Array arr[i] >= arr[j] if i is even, else arr[i] <= arr[j]](Arrangement/RarrangeEvenOdd.py)
 * [Order Statistics]()
 * [Range Queries]()
 * [Optimization Problems]()
