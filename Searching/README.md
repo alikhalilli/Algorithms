@@ -1,5 +1,5 @@
 * [Searching Algorithms](Searching)
-    - [ ] [Linear Search](Searching/LinearSearch.py)
+    - [x] [Linear Search](Searching/LinearSearch.py)
     - [ ] [Binary Search](Searching/BinarySearch.py)
     - [ ] [Jump Search](Searching/JumpSearch.py)
     - [ ] [Interpolation Search]()
