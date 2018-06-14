@@ -16,7 +16,7 @@
     * [Find Minimum Element In Rotated Sorted Array](Rotation/FindMinInRotatedSortedArr.py)
     * [Rotation With Max Hamming Distance](Rotation/MaxHammingDistance.py)
     * [Rotate Array In Given Ranges](Rotation/RotateInGivenRanges.py)
-    * [-Find element at given index after a number of rotations](Rotation/FindAfterNRotations.py)
+    * [Find element at given index after a number of rotations](Rotation/FindAfterNRotations.py)
     * [Split The Array and Add the First Part to the end](Rotation/SplitAndAppend.py)
 * [Array Search](Search)
     * [Find Pairs With A Given Sum In Two Unsorted Arrays](Search/PairsTwoUnsortedArraysV1.py)
