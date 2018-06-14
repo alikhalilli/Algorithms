@@ -30,6 +30,8 @@
     - [x] [Find Minimum Element In Rotated Sorted Array](Rotation/FindMinInRotatedSortedArr.py)
 * [Arrangement](Arrangement)
     - [ ] [Rearrange Array]()
+    - [x] [Rearrange Array using SET](Arrangement/RearrangeV2.py)
+    - [x] [Rearrange Array using DICT](Arrangement/RearrangeV3.py)
     - [x] [Reverse Array(Iterative)](Arrangement/ReverseArrOrString(Iterative).py)
     - [x] [Reverse Array(Recursive)](Arrangement/ReverseArrOrString(Recursive).py)
 * [Order Statistics]()
