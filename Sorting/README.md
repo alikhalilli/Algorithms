@@ -1,6 +1,6 @@
 * [Sorting Algorithms](Sorting)
     - [x] [Selection Sort](SelectionSort.py)
-    - [ ] [Bubble Sort]()
+    - [x] [Bubble Sort](BubbleSort.py)
     - [ ] [Recursive Bubble Sort]()
     - [ ] [Insertion Sort]()
     - [ ] [Recursive Insertion Sort]()
