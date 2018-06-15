@@ -3,7 +3,7 @@
     - [x] [Binary Search (Recursive)](Searching/BinarySearchRecursive.py)
     - [x] [Binary Search (Iterative)](Searching/BinarySearchIterative.py)
     - [x] [Jump Search](Searching/JumpSearch.py)
-    - [ ] [Interpolation Search]()
+    - [x] [Interpolation Search]()
     - [ ] [Exponential Search]()
     - [ ] [Sublist Search]()
     - [ ] [Fibonacci Search]()
