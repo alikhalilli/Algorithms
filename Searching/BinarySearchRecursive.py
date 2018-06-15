@@ -2,6 +2,7 @@
 @github: github.com/alikhalilli
 
 Time Complexity: O(logn)
+Space Comlexity: O(logn) (function call stack)
 """
 
 
