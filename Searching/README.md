@@ -1,6 +1,7 @@
 * [Searching Algorithms](Searching)
     - [x] [Linear Search](Searching/LinearSearch.py)
-    - [x] [Binary Search](Searching/BinarySearch.py)
+    - [x] [Binary Search (Recursive)](Searching/BinarySearchRecursive.py)
+    - [x] [Binary Search (Iterative)](Searching/BinarySearchIterative.py)
     - [ ] [Jump Search](Searching/JumpSearch.py)
     - [ ] [Interpolation Search]()
     - [ ] [Exponential Search]()
