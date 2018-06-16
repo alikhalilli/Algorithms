@@ -4,7 +4,7 @@
     - [ ] [Recursive Bubble Sort]()
     - [x] [Insertion Sort](InsertionSort.py)
     - [x] [Recursive Insertion Sort](InsertionSortRecursive.py)
-    - [ ] [Merge Sort]()
+    - [x] [Merge Sort]()
     - [ ] [Iterative Merge Sort]()
     - [ ] [Quick Sort]()
     - [ ] [Iterative Quick Sort]()

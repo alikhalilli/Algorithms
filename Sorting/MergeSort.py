@@ -1,8 +1,8 @@
 """
 @github: github.com/alikhalilli
 
-Time Complexity:
-Space Complexity:
+Time Complexity: O(nlogn)
+Space Complexity: O(n)
 
 
 [4, 7, 3, 5, 1]
@@ -56,3 +56,8 @@ def mergeSort(arr, l, r):
         mergeSort(arr, l, m)
         mergeSort(arr, m+1, r)
         merge(arr, l, m, r)
+
+
+arr = [4, 7, 3, 5, 1]
+mergeSort(arr, 0, len(arr)-1)
+print(arr)
