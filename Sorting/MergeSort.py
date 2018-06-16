@@ -3,6 +3,13 @@
 
 Time Complexity:
 Space Complexity:
+
+
+[4, 7, 3, 5, 1]
+mergeSort(l, m) -> mergeSort(l, m) -> mergeSort(l, m)
+                                   -> mergeSort(m+1, r)
+                -> mergeSort(m+1, r) -> 
+mergeSort(m+1, r) -> mergeSort(m+1, r) -> mergeSort()
 """
 
 
