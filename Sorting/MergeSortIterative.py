@@ -72,6 +72,7 @@ def merge(arr, l, m, r):
 def mergeSort(arr):
     n = len(arr)
     s_size = 2
+    last = False
     while s_size <= n:
         l = 0
         if l + s_size < n:
@@ -79,19 +80,24 @@ def mergeSort(arr):
         else:
             r = n-1
         while l < r:
-            print("l=", l, "r=", r)
             m = int(l + (r-l)/2)
             merge(arr, l, m, r)
+            print("size=", s_size, "l=", l, "r=", r, "m=", m)
+            print("after merge", arr)
             l += s_size
-            if l + s_size < n:
+            if l + s_size-1 < n:
                 r = l + s_size - 1
             else:
                 r = n-1
-        s_size = s_size * 2
-        print("s_size=>", s_size)
+        if s_size*2 >= n and not last:
+            last = True
+            s_size = n
+        else:
+            s_size = s_size * 2
 
 
-#arr = [7, 6, 5, 4, 3, 2, 1]
-arr = [9, 6, 4, 7, 3, 5, 1]
+arr = [7, 6, 5, 4, 3, 2]
+#arr = [4, 7, 3, 5, 1]
+#arr = [12, 11, 13, 5, 6, 7]
 mergeSort(arr)
 print(arr)
