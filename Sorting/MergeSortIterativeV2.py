@@ -77,13 +77,15 @@ def mergeSort(arr):
         while l < n-1:
             r = min(l + 2*s_size-1, n-1)
             m = l + s_size - 1
+            #m = int(l + (r-l)/2)
             merge(arr, l, m, r)
             l += 2*s_size
         s_size = s_size * 2
 
 
 #arr = [7, 6, 5, 4, 3, 2]
-arr = [4, 7, 3, 5, 1]
+#arr = [4, 7, 3, 5, 1]
 #arr = [12, 11, 13, 5, 6, 7]
+arr = [18, 12, 9, 1, 13, 5, 11, 19, 3, 10]
 mergeSort(arr)
 print(arr)

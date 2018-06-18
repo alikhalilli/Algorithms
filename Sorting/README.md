@@ -6,5 +6,5 @@
     - [x] [Recursive Insertion Sort](InsertionSortRecursive.py)
     - [x] [Merge Sort](MergeSort.py)
     - [x] [Iterative Merge Sort](MergeSortIterativeV2.py)
-    - [ ] [Quick Sort]()
+    - [ ] [Quick Sort](QuickSort.py)
     - [ ] [Iterative Quick Sort]()
