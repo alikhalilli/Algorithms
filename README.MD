@@ -1,10 +1,8 @@
 # Algorithms
 ## Arrays
 ### Array Rotation
-    1. [Problem1](http://github.com/)
-    2. [P2]: 
-    3. [P3]: 
-    4. [P4]: 
-    5. [P5]: 
-
-   
+- [Problem1](http://github.com/)
+- [P2](old/Arrays/Arrangement/RearrangeEvenOdd.py)
+- [P3](old/Arrays/Arrangement/RearrangeV2.py)
+- [P4](old/Arrays/Arrangement/RearrangeV3.py)
+- [P5](old/Arrays/README.md)
