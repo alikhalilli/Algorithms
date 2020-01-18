@@ -1,56 +1,76 @@
 import time
 
-def gcd_euclid(a, b):
-    if a==b:
+
+def gcd(a, b):
+    if b == 0:
         return a
-    elif a > b:
-        return gcd_euclid(a-b, b)
-    elif a < b:
-        return gcd_euclid(a, b-a)
-
-def gcd_steins(a, b):
-    if a==b:
-        return a
-    elif a%2==0 and b%2==0:
-        return gcd_steins(a/2, b/2)
-    elif a%2==0:
-        return gcd_steins(a/2, b)
-    elif b%2==0:
-        return gcd_steins(a, b/2)
-    elif a > b:
-        return gcd_steins(a-b, b)
-    elif a < b:
-        return gcd_steins(a, b-a)
+    return gcd(b, a % b)
 
 
+"""
+[1, 2 | 3, 4 | 5, 6]
+[x, 2 | 1, 4 | 5, 6]
+[x, 2 | 5, 4 | 1, 6]
+"""
 
-def rotateArrLeft(arr, d):
-    n = len(arr)
-    split_point = d%n
-    gcd = gcd_steins(d, n)
 
-    for i in range(split_point):
-        rotateByGCD(arr, n, gcd)
+"""
+[1, 2, 3, 4, 5]
+[4, 5, 1, 2, 3]
+"""
 
-def rotateByGCD(arr, n, gcd):
-    temp = arr[i]
-    for i in range(n, step=gcd):
-        arr[i] = arr[i+split_point]
 
-arr = [1, 2, 3, 4, 5]
-
-def rotateArrLeft2(arr, d):
+def rotateLeft(arr, d):
     n = len(arr)
     k = d % n
+    temp = [None]*k
+    for i in range(k):
+        temp[i] = arr[i]
+
     for i in range(n-k):
+        arr[i] = arr[i+k]
+
+    for i in range(k):
+        arr[n-k+i] = temp[i]
+    return arr
+
+
+def rotateRight(arr, d):
+    n = len(arr)
+    k = d % n
+    temp = [None] * k
+
+    for i in range(k):
+        temp[i] = arr[n-k+i]
+
+    for i in range(n, k, -1):
+        arr[i-1] = arr[i-k-1]
+
+    for i in range(k):
+        arr[i] = temp[i]
+
+    return arr
+
+
+def leftRotate(arr, d):
+    n = len(arr)
+    d = d % n
+    g_c_d = gcd(d, n)
+    for i in range(g_c_d):
+        print("hmm")
+        # move i-th values of blocks
         temp = arr[i]
-        arr[i] = arr[i + k]
-        arr[i+k] = temp
-    if n%2 != 0:
-        temp = arr[n-2]
-        arr[n-2] = arr[n-1]
-        arr[n-1] = temp
+        j = i
+        while 1:
+            k = (j + d) % n
+            if k == i:
+                break
+            arr[j] = arr[k]
+            j = k
+            print(arr)
+        arr[j] = temp
+        print(f"->{arr}")
     print(arr)
 
 
-rotateArrLeft2(arr, 4)
+leftRotate([1, 2, 3, 4, 5, 6, 7, 8, 9], 3)
